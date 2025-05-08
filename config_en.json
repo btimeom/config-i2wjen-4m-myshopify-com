@@ -186,7 +186,7 @@
       "items": [
         {
           "key": "ZdtEXpvCDY",
-          "name": "Korean Products Time",
+          "name": "Korean products time",
           "type": "image",
           "image": "https://btime.om/cdn/shop/files/btken-min.jpg",
           "video": "",
@@ -922,25 +922,5 @@
   },
   "overrideTranslation": {
     "@@locale": "en"
-  },
-  "onBoardingConfig": {
-    "data": [
-      {
-        "desc": "Everything you need in beauty and care, delivered to your doorstep.",
-        "image": "assets/images/fogg-delivery-1.png",
-        "title": "Welcome to Beauty Time"
-      },
-      {
-        "desc": "Explore the world around you easily and quickly... just one tap away.",
-        "image": "assets/images/fogg-uploading-1.png",
-        "title": "Everything at Your Fingertips"
-      },
-      {
-        "desc": "Discover your new world now!",
-        "image": "assets/images/fogg-order-completed.png",
-        "title": "Ready to Get Started?"
-      }
-    ]
-  },
-  "Datetime": "01:19:27 - Fri 9 May"
+  }
 }
