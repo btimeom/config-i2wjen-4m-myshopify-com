@@ -18,7 +18,7 @@
           "name": null,
           "image": "https://cdn.shopify.com/s/files/1/0619/3915/5027/files/skin_care.png",
           "order": null,
-          "title": "Skin",
+          "title": "البشرة",
           "colors": null,
           "onSale": false,
           "orderby": null,
@@ -935,27 +935,24 @@
         "requiredLogin": false,
         "enableBackward": true,
         "iconFontFamily": "CupertinoIcons",
+        "buttonAlignment": "centerLeft"
+      }
+    },
     "backgroundColor": "FF7C2C86",
     "backgroundImage": null
   },
-  "onBoardingConfig": {
-    "data": [
-      {
-        "desc": "Everything you need in beauty and care, delivered to your doorstep.",
-        "image": "assets/images/fogg-delivery-1.png",
-        "title": "Welcome to Beauty Time"
-      },
-      {
-        "desc": "Explore the world around you easily and quickly... just one tap away.",
-        "image": "assets/images/fogg-uploading-1.png",
-        "title": "Everything at Your Fingertips"
-      },
-      {
-        "desc": "Discover your new world now!",
-        "image": "assets/images/fogg-order-completed.png",
-        "title": "Ready to Get Started?"
-      }
-    ]
+  "overrideTranslation": {
+    "@@locale": "ar",
+    "myWishList": "قائمة المفضلة",
+    "addToWishlist": "إضافة إلى المفضلة",
+    "emptyWishlist": "المفضلة فارغة",
+    "noFavoritesYet": "قائمة المفضلة فارغة",
+    "removeWishlist": "إزالة من المفضلة",
+    "saveToWishList": "حفظ في المفضلة",
+    "removeFromWishList": "إزالة من المفضلة",
+    "emptyWishlistSubtitle": "اضغط على أيقونة القلب بجوار المنتج لإضافته إلى المفضلة. سنحفظها لك هنا!",
+    "removeWishlistContent": "هل تريد إزالة {count} عنصر من المفضلة؟",
+    "emptyWishlistSubtitle02": "المفضلة فارغة حالياً. ابدأ بإضافة منتجاتك المفضلة!"
   },
   "Datetime": "01:19:27 - Fri 9 May"
 }
