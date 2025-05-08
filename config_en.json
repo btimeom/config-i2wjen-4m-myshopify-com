@@ -16,7 +16,7 @@
           "name": null,
           "image": "https://cdn.shopify.com/s/files/1/0619/3915/5027/files/skin_care.png",
           "order": null,
-          "title": "البشرة",
+          "title": "Skin",
           "colors": null,
           "onSale": false,
           "orderby": null,
@@ -36,7 +36,7 @@
           "name": null,
           "image": "https://cdn.shopify.com/s/files/1/0619/3915/5027/files/hair-care_0f104f12-aa58-48dd-ab5a-4df0df9a5ba7.png",
           "order": null,
-          "title": "الشعر",
+          "title": "Hair",
           "colors": null,
           "onSale": false,
           "orderby": null,
@@ -56,7 +56,7 @@
           "name": null,
           "image": "https://cdn.shopify.com/s/files/1/0619/3915/5027/files/33_f04d475f-3948-4d32-9d73-6bd465afc6c2.png",
           "order": null,
-          "title": " الجسم",
+          "title": " Body",
           "colors": null,
           "onSale": false,
           "orderby": null,
@@ -76,7 +76,7 @@
           "name": null,
           "image": "https://cdn.shopify.com/s/files/1/0619/3915/5027/files/korean_beauty_icon_final_purple-min.png",
           "order": null,
-          "title": " الكورية",
+          "title": " Korean",
           "colors": null,
           "onSale": false,
           "orderby": null,
@@ -96,7 +96,7 @@
           "name": null,
           "image": "https://cdn.shopify.com/s/files/1/0619/3915/5027/files/health_991e9c95-3c69-4395-9a13-4bcf675edaa5.png",
           "order": null,
-          "title": "الصحة",
+          "title": "Health",
           "colors": null,
           "onSale": false,
           "orderby": null,
@@ -186,7 +186,7 @@
       "items": [
         {
           "key": "ZdtEXpvCDY",
-          "name": "وقت المنتجات الكورية",
+          "name": "Korean Products Time",
           "type": "image",
           "image": "https://btime.om/cdn/shop/files/btk-min.jpg",
           "video": "",
@@ -259,7 +259,7 @@
       "doubleTapToFullScreen": false
     },
     {
-      "name": "ترندينغ",
+      "name": "Trending",
       "rows": 1,
       "layout": "threeColumn",
       "onSale": false,
@@ -310,7 +310,7 @@
       "showCartButtonWithQuantity": false
     },
     {
-      "name": "العروض ⚡️",
+      "name": "Offers ⚡️",
       "rows": 1,
       "layout": "saleOff",
       "onSale": true,
@@ -523,7 +523,7 @@
       "productCategoryMenuStyle": "menu"
     },
     {
-      "name": "جديد",
+      "name": "New",
       "rows": 1,
       "limit": 5,
       "layout": "simpleList",
@@ -567,7 +567,7 @@
       "showCartButtonWithQuantity": false
     },
     {
-      "name": "الأكثر مبيعاً",
+      "name": "Best Sellers",
       "rows": 1,
       "layout": "twoColumn",
       "onSale": false,
@@ -610,7 +610,7 @@
       "showCartButtonWithQuantity": false
     },
     {
-      "name": "لفت انتباهك",
+      "name": "Just for You",
       "rows": 1,
       "layout": "largeCard",
       "onSale": false,
@@ -742,7 +742,7 @@
     {
       "key": "tuQepLAfUs",
       "icon": "assets/icons/tabs/icon-home.png",
-      "label": "الرئيسية",
+      "label": "Home",
       "layout": "home",
       "defaultTab": false,
       "fullscreen": false,
@@ -751,7 +751,7 @@
     {
       "key": "HdRCoCQGqFH",
       "icon": "assets/icons/tabs/icon-lists.png",
-      "label": "الاقسام",
+      "label": "Categories",
       "layout": "category",
       "visible": true,
       "parallax": true,
@@ -774,7 +774,7 @@
     {
       "key": "rftKwhraqloVZ",
       "icon": "assets/icons/tabs/icon-cart2.png",
-      "label": "السلة",
+      "label": "Cart",
       "layout": "cart",
       "defaultTab": false,
       "fullscreen": true,
@@ -783,7 +783,7 @@
     {
       "key": "FKilStwevQ",
       "icon": "assets/icons/tabs/icon-heartthin.png",
-      "label": "المفظلة",
+      "label": "Wishlist",
       "layout": "wishlist",
       "defaultTab": false,
       "fullscreen": true,
@@ -792,7 +792,7 @@
     {
       "key": "CtDIiRCJrL",
       "icon": "assets/icons/tabs/icon-user.png",
-      "label": "حسابي",
+      "label": "My Account",
       "layout": "profile",
       "settings": [
         "biometrics",
@@ -892,7 +892,7 @@
       "web-qMVLBlTNUP": {
         "id": "web-12",
         "icon": "bubble_right_fill",
-        "title": "راسلنا",
+        "title": "Contact",
         "webUrl": "https://wa.me/96877255566",
         "buttons": [
           {
