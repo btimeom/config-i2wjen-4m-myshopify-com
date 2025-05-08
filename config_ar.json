@@ -739,6 +739,7 @@
       }
     },
     "ProductDetail": "flatStyle",
+    "hideBuyNow": true,
     "ProductListLayout": "list",
     "SmartEngagementBanner": {
       "popup": {
