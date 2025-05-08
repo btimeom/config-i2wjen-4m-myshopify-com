@@ -737,17 +737,19 @@
         "margin": null,
         "sizeIcon": null
       }
-    },
-    "ProductDetail": "flatStyle",
-    "hideBuyNow": true,
-    "ProductListLayout": "list",
-    "SmartEngagementBanner": {
-      "popup": {
-        "enable": false,
-        "updatedTime": 1746666068211,
-        "closePosition": "topRight",
-        "alwaysShowUponOpen": true
-      },
+},
+"productDetail": {
+  "layout": "flatStyle",
+  "hideBuyNow": true
+},
+"ProductListLayout": "list",
+"SmartEngagementBanner": {
+  "popup": {
+    "enable": false,
+    "updatedTime": 1746666068211,
+    "closePosition": "topRight",
+    "alwaysShowUponOpen": true
+  },
       "sticky": {
         "enable": false
       },
