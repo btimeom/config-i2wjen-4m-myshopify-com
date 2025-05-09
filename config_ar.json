@@ -740,7 +740,8 @@
 },
 "productDetail": {
   "layout": "flatStyle",
-  "hideBuyNow": true
+  "hideBuyNow": true,
+  "buyButtonStyle": "none"
 },
 "ProductListLayout": "list",
 "SmartEngagementBanner": {
