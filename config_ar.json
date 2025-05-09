@@ -916,7 +916,7 @@
     "subDrawerItem": {
       "web-qMVLBlTNUP": {
         "id": "web-12",
-  "image": "https://www.iconsdb.com/icons/download/purple/whatsapp-64.png",
+        "icon": "bubble_right_fill",
         "title": "راسلنا",
         "webUrl": "https://wa.me/96877255566",
         "buttons": [
