@@ -802,24 +802,17 @@
     "showBackground": true,
     "showOriginalColor": false
   }],
-"AppBar": {
-  "snap": true,
-  "enable": true,
-  "pinned": true,
-  "floating": true,
-  "elevation": 0,
-
-  "showOnScreens": ["home", "category"],
-
-  "alwaysShowAppBar": false,
-
-  "items": [
-    { "type": "cart", "showBadge": true },
-    { "type": "search", "show": true }
-  ],
-
-  "expandedItems": []
-}
+  "AppBar": {
+    "snap": true,
+    "items": [],
+    "enable": false,
+    "pinned": true,
+    "floating": true,
+    "elevation": 0,
+    "expandedItems": [],
+    "showOnScreens": ["home"],
+    "alwaysShowAppBar": false
+  },
   "Drawer": {
     "logo": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/6816aff09cfa72c9a18607b0/download/1.svg",
     "items": [{
