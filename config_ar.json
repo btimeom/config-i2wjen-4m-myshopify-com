@@ -844,7 +844,7 @@
       "type": "category"
     }, {
   "show": true,
-  "type": "button-brands"
+  "type": "screen-brands"
     }, {
       "type": "button-mgqvKsvGvi",
       "show": true
@@ -919,14 +919,14 @@
         "iconFontFamily": "CupertinoIcons",
         "buttonAlignment": "centerLeft"
       },
-"button-brands": {
-  "id": "btn-12",
+"screen-brands": {
+  "id": "screen-brands",
   "icon": "tag_circle",
+  "iconFontFamily": "CupertinoIcons",
   "title": "الماركات",
-  "route": "brands",
+  "screen": "brands",
   "requiredLogin": false,
-  "buttonAlignment": "centerLeft",
-  "iconFontFamily": "CupertinoIcons"
+  "buttonAlignment": "centerLeft"
       },
       "button-mgqvKsvGvi": {
         "id": "web-12",
