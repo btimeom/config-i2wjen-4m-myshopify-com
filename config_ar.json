@@ -913,16 +913,15 @@
         "iconFontFamily": "CupertinoIcons",
         "buttonAlignment": "centerLeft"
       },
-"screen-brands": {
-  "id": "screen-12",
-  "type": "screen",
+"button-brands": {
+  "id": "btn-12",
+  "type": "button",
   "title": "الماركات",
   "icon": "tag_circle",
   "iconFontFamily": "CupertinoIcons",
   "route": "brands",
   "requiredLogin": false,
-  "enableDivider": false,
-  "useTabScreen": false
+  "buttonAlignment": "centerLeft"
       }
     },
     "backgroundColor": "FF7C2C86",
