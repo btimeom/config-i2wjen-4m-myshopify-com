@@ -906,9 +906,9 @@
   "subDrawerItem": {
     "web-qMVLBlTNUP": {
       "id": "web-12",
-      "icon": "bubble_right_fill",
+      "icon": "assets/icons/brands/whatsapp.svg",
       "title": "راسلنا",
-      "webUrl": "https://wa.me/96877255566",
+      "webUrl": "whatsapp://send?phone=96877255566",
       "buttons": [
         {
           "width": 40,
