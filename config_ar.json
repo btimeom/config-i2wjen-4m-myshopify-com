@@ -925,7 +925,12 @@
   "iconFontFamily": "CupertinoIcons",
   "title": "الماركات",
   "screen": "brands",
+  "useTabScreen": true,
+  "enableClose": false,
+  "enableDivider": false,
   "requiredLogin": false,
+  "enableForward": false,
+  "enableBackward": true,
   "buttonAlignment": "centerLeft"
       },
       "button-mgqvKsvGvi": {
