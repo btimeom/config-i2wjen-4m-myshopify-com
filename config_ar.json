@@ -862,108 +862,103 @@
     ],
     "alwaysShowAppBar": false
   },
-  "Drawer": {
-    "logo": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/6816aff09cfa72c9a18607b0/download/1.svg",
-    "items": [
-      { "show": true,  "type": "home" },
-      { "show": false, "type": "blog" },
-      { "show": false, "type": "categories" },
-      { "show": true,  "type": "cart" },
-      { "show": false, "type": "profile" },
-      { "show": true,  "type": "login" },
-      { "show": true,  "type": "web-qMVLBlTNUP" },
-
-      /* زر الماركات (شاشة التطبيق) */
-      { "show": true,  "type": "screen-brandsWeb" },
-
-      { "show": false, "type": "screen-bcltYTyBqf" },
-      { "show": true,  "type": "category" }
-    ],
-    "enable": true,
-    "filter": 0.3,
-    "logoDark": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/68180aac2d74983d6722d0c8/download/2_modified.svg",
-    "safeArea": false,
-    "iconColor": "FFFEDAC4",
-    "textColor": "FFFEDAC4",
-    "logoConfig": {
-      "width": 50,
-      "height": 70,
-      "marginLeft": 27,
-      "marginRight": 47,
-      "marginTop": 27,
-      "marginBottom": 0,
-      "boxFit": "fitWidth",
-      "useMaxWidth": true
-    },
-    "zoomConfig": {
-      "angle": 0,
-      "style": "scaleRight",
-      "slideWidth": 0.55,
-      "slideMargin": 0,
-      "borderRadius": 67.5,
-      "enableShadow": false,
-      "backgroundImage": null,
-      "mainScreenScale": 0.1
-    },
-    "colorFilter": "FFB24CB6",
-    "subDrawerItem": {
-      "web-qMVLBlTNUP": {
-        "id": "web-12",
-        "icon": "bubble_right_fill",
-        "title": "راسلنا",
-        "webUrl": "https://wa.me/96877255566",
-        "buttons": [
-          {
-            "width": 40,
-            "height": 40,
-            "radius": 0,
-            "navigator": {},
-            "marginLeft": 5,
-            "marginRight": 5,
-            "textFontSize": 14
-          }
-        ],
-        "enableClose": false,
-        "webViewMode": true,
-        "bannerHeight": 15,
-        "useTabScreen": false,
-        "enableDivider": false,
-        "enableForward": false,
-        "requiredLogin": false,
-        "enableBackward": true,
-        "iconFontFamily": "CupertinoIcons",
-        "buttonAlignment": "centerLeft"
-      },
-
-      /* تعريف زر الماركات: يوجه الى مسار brands-web داخل التطبيق */
-      "screen-brandsWeb": {
-        "id": "screen-brandsWeb",
-        "icon": "tag_circle",
-        "iconFontFamily": "CupertinoIcons",
-        "title": "الماركات",
-        "screen": "brands-web",
-        "useTabScreen": false
-      },
-
-      "screen-bcltYTyBqf": {
-        "id": "web-12",
-        "icon": "gear_solid",
-        "title": "الأعدادات",
-        "screen": "profile",
-        "buttons": [],
-        "enableClose": false,
-        "webViewMode": false,
-        "bannerHeight": 15,
-        "useTabScreen": true,
-        "enableDivider": false,
-        "enableForward": false,
-        "requiredLogin": false,
-        "enableBackward": true
-      }
-    },
-    "backgroundColor": "FF7C2C86",
-    "backgroundImage": null
+"Drawer": {
+  "logo": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/6816aff09cfa72c9a18607b0/download/1.svg",
+  "items": [
+    { "show": true,  "type": "home" },
+    { "show": false, "type": "blog" },
+    { "show": false, "type": "categories" },
+    { "show": true,  "type": "cart" },
+    { "show": false, "type": "profile" },
+    { "show": true,  "type": "login" },
+    { "show": true,  "type": "web-qMVLBlTNUP" },
+    { "show": true,  "type": "screen-brandsWeb" },
+    { "show": false, "type": "screen-bcltYTyBqf" },
+    { "show": true,  "type": "category" }
+  ],
+  "enable": true,
+  "filter": 0.3,
+  "logoDark": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/68180aac2d74983d6722d0c8/download/2_modified.svg",
+  "safeArea": false,
+  "iconColor": "FFFEDAC4",
+  "textColor": "FFFEDAC4",
+  "logoConfig": {
+    "width": 50,
+    "height": 70,
+    "marginLeft": 27,
+    "marginRight": 47,
+    "marginTop": 27,
+    "marginBottom": 0,
+    "boxFit": "fitWidth",
+    "useMaxWidth": true
   },
+  "zoomConfig": {
+    "angle": 0,
+    "style": "scaleRight",
+    "slideWidth": 0.55,
+    "slideMargin": 0,
+    "borderRadius": 67.5,
+    "enableShadow": false,
+    "backgroundImage": null,
+    "mainScreenScale": 0.1
+  },
+  "colorFilter": "FFB24CB6",
+  "subDrawerItem": {
+    "web-qMVLBlTNUP": {
+      "id": "web-12",
+      "icon": "bubble_right_fill",
+      "title": "راسلنا",
+      "webUrl": "https://wa.me/96877255566",
+      "buttons": [
+        {
+          "width": 40,
+          "height": 40,
+          "radius": 0,
+          "navigator": {},
+          "marginLeft": 5,
+          "marginRight": 5,
+          "textFontSize": 14
+        }
+      ],
+      "enableClose": false,
+      "webViewMode": true,
+      "bannerHeight": 15,
+      "useTabScreen": false,
+      "enableDivider": false,
+      "enableForward": false,
+      "requiredLogin": false,
+      "enableBackward": true,
+      "iconFontFamily": "CupertinoIcons",
+      "buttonAlignment": "centerLeft"
+    },
+    "screen-brandsWeb": {
+      "id": "screen-brandsWeb",
+      "icon": "tag_circle",
+      "iconFontFamily": "CupertinoIcons",
+      "title": "الماركات",
+      "screen": "brands-web",
+      "useTabScreen": false
+    },
+    "screen-bcltYTyBqf": {
+      "id": "web-12",
+      "icon": "gear_solid",
+      "title": "الأعدادات",
+      "screen": "profile",
+      "buttons": [],
+      "enableClose": false,
+      "webViewMode": false,
+      "bannerHeight": 15,
+      "useTabScreen": true,
+      "enableDivider": false,
+      "enableForward": false,
+      "requiredLogin": false,
+      "enableBackward": true
+    }
+  },
+  "backgroundColor": "FF7C2C86",
+  "backgroundImage": null
+}
+
   "overrideTranslation": {
     "@@locale": "ar",
     "myWishList": "قائمة المفضلة",
