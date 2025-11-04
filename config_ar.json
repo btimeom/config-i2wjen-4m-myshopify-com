@@ -871,8 +871,10 @@
     { "show": true,  "type": "cart" },
     { "show": false, "type": "profile" },
     { "show": true,  "type": "login" },
-   { "show": true,  "type": "screen-brandsWeb" },
-    { "show": true,  "type": "web-qMVLBlTNUP" },
+
+    { "show": true,  "type": "screen-brandsWeb" },   // ⬅️ الماركات أولاً
+    { "show": true,  "type": "web-qMVLBlTNUP" },     // ⬅️ ثم راسلنا
+
     { "show": false, "type": "screen-bcltYTyBqf" },
     { "show": true,  "type": "category" }
   ],
@@ -905,21 +907,11 @@
   "colorFilter": "FFB24CB6",
   "subDrawerItem": {
     "web-qMVLBlTNUP": {
-  "id": "web-12",
-  "icon": "assets/icons/brands/whatsapp.png",
-  "title": "راسلنا",
-  "webUrl": "whatsapp://send?phone=96877255566",
-  "buttons": [{ "width": 40, "height": 40, "radius": 0, "navigator": {}, "marginLeft": 5, "marginRight": 5, "textFontSize": 14 }],
-  "enableClose": false,
-  "webViewMode": true,
-  "bannerHeight": 15,
-  "useTabScreen": false,
-  "enableDivider": false,
-  "enableForward": false,
-  "requiredLogin": false,
-  "enableBackward": true,
-  "buttonAlignment": "centerLeft"
- [
+      "id": "web-12",
+      "icon": "assets/icons/brands/whatsapp.svg",  // ✅ مسار الأيقونة
+      "title": "راسلنا",
+      "webUrl": "whatsapp://send?phone=96877255566",
+      "buttons": [
         {
           "width": 40,
           "height": 40,
@@ -938,12 +930,12 @@
       "enableForward": false,
       "requiredLogin": false,
       "enableBackward": true,
-      "iconFontFamily": "CupertinoIcons",
       "buttonAlignment": "centerLeft"
+      // ⚠️ ملاحظة: أزلنا "iconFontFamily" لأن الأيقونة صورة وليست من مكتبة خطوط
     },
     "screen-brandsWeb": {
       "id": "screen-brandsWeb",
-      "icon": "tag_circle",
+      "icon": "tag",
       "iconFontFamily": "CupertinoIcons",
       "title": "الماركات",
       "screen": "brands-web",
