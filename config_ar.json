@@ -866,12 +866,12 @@
   "logo": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/6816aff09cfa72c9a18607b0/download/1.svg",
   "items": [
     { "show": true,  "type": "home" },
+    { "show": true,  "type": "screen-brandsWeb" },
     { "show": false, "type": "blog" },
     { "show": false, "type": "categories" },
     { "show": true,  "type": "cart" },
     { "show": false, "type": "profile" },
     { "show": true,  "type": "login" },
-    { "show": true,  "type": "screen-brandsWeb" },
     { "show": true,  "type": "web-qMVLBlTNUP" },
     { "show": false, "type": "screen-bcltYTyBqf" },
     { "show": true,  "type": "category" }
