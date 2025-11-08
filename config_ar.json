@@ -246,22 +246,12 @@
       "isHorizontal": false,
       "marginBottom": 0,
       "autoPlayVideo": false,
-      "numberPadding": {
-        "end": 0,
-        "top": 15,
-        "start": 0,
-        "bottom": 0
-      },
+      "numberPadding": { "end": 0, "top": 15, "start": 0, "bottom": 0 },
       "showIndicator": true,
       "showBackground": false,
       "numberAlignment": { "value": "topEnd" },
       "enableBackground": false,
-      "indicatorPadding": {
-        "end": 0,
-        "top": 0,
-        "start": 0,
-        "bottom": 13
-      },
+      "indicatorPadding": { "end": 0, "top": 0, "start": 0, "bottom": 13 },
       "pageIndicatorType": "line",
       "indicatorAlignment": { "value": "bottomCenter" },
       "parallaxImageRatio": 1.2,
@@ -283,13 +273,7 @@
       "hPadding": 0,
       "parallax": false,
       "vPadding": 0,
-      "boxShadow": {
-        "x": 0,
-        "y": 10,
-        "blurRadius": 10,
-        "colorOpacity": 0.1,
-        "spreadRadius": 10
-      },
+      "boxShadow": { "x": 0, "y": 10, "blurRadius": 10, "colorOpacity": 0.1, "spreadRadius": 10 },
       "hidePrice": false,
       "hideStore": false,
       "hideTitle": false,
@@ -342,13 +326,7 @@
       "hPadding": 8,
       "parallax": false,
       "vPadding": 6,
-      "boxShadow": {
-        "x": 0,
-        "y": 6,
-        "blurRadius": 14,
-        "colorOpacity": 0.1,
-        "spreadRadius": 10
-      },
+      "boxShadow": { "x": 0, "y": 6, "blurRadius": 14, "colorOpacity": 0.1, "spreadRadius": 10 },
       "hidePrice": false,
       "hideStore": false,
       "hideTitle": false,
@@ -714,10 +692,7 @@
       "radiusBottomRight": 0
     },
     "ProductDetail": "flatStyle",
-    "productDetail": {
-      "layout": "flatStyle",
-      "hideBuyNow": true
-    },
+    "productDetail": { "layout": "flatStyle", "hideBuyNow": true },
     "ProductListLayout": "list",
     "SmartEngagementBanner": {
       "popup": {
@@ -729,10 +704,7 @@
         "alwaysShowUponOpen": true,
         "allowTapOutsideToClose": false
       },
-      "sticky": {
-        "data": {},
-        "enable": false
-      },
+      "sticky": { "data": {}, "enable": false },
       "flexible": {
         "data": {
           "items": [],
@@ -879,18 +851,11 @@
       "web-qMVLBlTNUP": {
         "id": "web-12",
         "icon": "bubble_right_fill",
+        "iconFontFamily": "CupertinoIcons",
         "title": "راسلنا",
         "webUrl": "whatsapp://send?phone=96877255566",
         "buttons": [
-          {
-            "width": 40,
-            "height": 40,
-            "radius": 0,
-            "navigator": {},
-            "marginLeft": 5,
-            "marginRight": 5,
-            "textFontSize": 14
-          }
+          { "width": 40, "height": 40, "radius": 0, "navigator": {}, "marginLeft": 5, "marginRight": 5, "textFontSize": 14 }
         ],
         "enableClose": false,
         "webViewMode": true,
@@ -900,22 +865,40 @@
         "enableForward": false,
         "requiredLogin": false,
         "enableBackward": true,
-        "iconFontFamily": "CupertinoIcons",
         "buttonAlignment": "centerLeft"
       },
       "screen-brandsWeb": {
         "id": "screen-brandsWeb",
         "icon": "tag",
+        "iconFontFamily": "CupertinoIcons",
         "title": "الماركات",
         "screen": "brands-web",
-        "useTabScreen": false,
-        "iconFontFamily": "CupertinoIcons"
+        "useTabScreen": false
       },
       "screen-bcltYTyBqf": {
-        "id": "settings-drawer",
-        "icon": "gear_solid",
+        "id": "CtDIiRCJrL",
+        "layout": "profile",
+        "icon": "assets/icons/tabs/icon-user.png",
+        "label": "حسابي",
         "title": "الإعدادات",
         "screen": "profile",
+        "defaultTab": false,
+        "fullscreen": true,
+        "showOriginalColor": false,
+        "settings": [
+          "biometrics",
+          "wishlist",
+          "notifications",
+          "language",
+          "currencies",
+          "darkTheme",
+          "order",
+          "rating",
+          "privacy"
+        ],
+        "background": "https://trello.com/1/cards/6818d78e70e5270c2016d1f2/attachments/681c1d6b6c25844d765b1c07/download/profile.png",
+        "showBackground": true,
+        "styleItem": "flatListTile",
         "buttons": [],
         "enableClose": false,
         "webViewMode": false,
