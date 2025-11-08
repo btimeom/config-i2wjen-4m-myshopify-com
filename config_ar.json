@@ -976,20 +976,21 @@
 "screen": "brands-web",
 "useTabScreen": false,
 "iconFontFamily": "CupertinoIcons"
-},
-"screen-bcltYTyBqf": {
-"id": "web-12",
-"icon": "gear_solid",
-"title": "الأعدادات",
-"screen": "profile",
-"buttons": [],
-"enableClose": false,
-"webViewMode": false,
-"bannerHeight": 15,
-"useTabScreen": true,
-"enableDivider": false,
-"enableForward": false,
-"requiredLogin": false,
+      },
+      "screen-bcltYTyBqf": {
+        "id": "settings-drawer",       // ← id فريد
+        "icon": "gear_solid",
+        "title": "الإعدادات",
+        "screen": "profile",
+        "buttons": [],
+        "enableClose": false,
+        "webViewMode": false,
+        "bannerHeight": 15,
+        "useTabScreen": true,
+        "enableDivider": false,
+        "enableForward": false,
+        "requiredLogin": false,
+        "enableBackward": true
 "enableBackward": true
 }
 },
