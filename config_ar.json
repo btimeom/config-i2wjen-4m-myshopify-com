@@ -878,7 +878,7 @@
       "screen-bcltYTyBqf": {
         "id": "CtDIiRCJrL",
         "layout": "profile",
-        "icon": "assets/icons/tabs/icon-user.png",
+        "icon": "gear_solid",
         "label": "حسابي",
         "title": "الإعدادات",
         "screen": "profile",
