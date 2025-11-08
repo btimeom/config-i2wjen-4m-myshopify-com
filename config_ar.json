@@ -838,6 +838,9 @@
       "show": true,
       "type": "screen-brandsWeb"
     }, {
+      "show": true,
+      "type": "screen-bcltYTyBqf"
+    }, {
       "show": false,
       "type": "blog"
     }, {
@@ -855,9 +858,6 @@
     }, {
       "show": true,
       "type": "web-qMVLBlTNUP"
-    }, {
-      "show": false,
-      "type": "screen-bcltYTyBqf"
     }, {
       "show": true,
       "type": "category"
