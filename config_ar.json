@@ -894,7 +894,7 @@
         "id": "web-12",
         "icon": "bubble_right_fill",
         "title": "راسلنا",
-        "webUrl": "whatsapp://send?phone=96877255566",
+        "webUrl": "https://wa.me/96877255566",
         "buttons": [{
           "width": 40,
           "height": 40,
