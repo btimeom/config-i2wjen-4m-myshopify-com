@@ -821,7 +821,7 @@
       "icon": "bubble_right_fill",
       "iconFontFamily": "CupertinoIcons",
       "title": "Whatsapp",
-      "webUrl": "whatsapp://send?phone=96877255566",
+      "webUrl": "https://wa.me/96877255566",
       "buttons": [
         {
           "width": 40,
