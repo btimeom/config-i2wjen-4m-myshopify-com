@@ -812,23 +812,20 @@
     "background": "https://raw.githubusercontent.com/fluxbuilder/images/main/2025/11/d4eb0d49ec3c/1762630550688.png",
     "subGeneralSetting": {
       "about": {
-        "webUrl": "https://btime.om/pages/whoarewe"
+          "webUrl": "https://btime.om/pages/whoarewe"
+        }
       }
-    },
-    "showBackground": true,
-    "styleItem": "flatShadow"
-  }],
+    }
+  ],
   "AppBar": {
-    "snap": true,
-    "items": [],
-    "enable": false,
-    "pinned": true,
-    "floating": true,
-    "elevation": 0,
-    "expandedItems": [],
     "showOnScreens": ["home"],
-    "alwaysShowAppBar": false
-        "items": [{
+    "enable": true,
+    "snap": true,
+    "pinned": false,
+    "floating": false,
+    "elevation": 0,
+    "alwaysShowAppBar": false,
+    "items": [{
       "type": "text",
       "pos": 100,
       "title": "اطلب بـ25﷼ توصيل مجاني",
@@ -860,7 +857,6 @@
       "productType": true
     }],
     "expandedItems": []
-
   },
   "Drawer": {
     "logo": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/6816aff09cfa72c9a18607b0/download/1.svg",
