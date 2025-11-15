@@ -775,7 +775,7 @@
         "gid://shopify/Collection/293196431443",
         "gid://shopify/Collection/286631067731"
       ],
-    "fullscreen": true,
+    "fullscreen": false,
     "showQRCode": true,
     "showSearch": true,
     "categoryLayout": "column",
