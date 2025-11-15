@@ -760,7 +760,7 @@
     "showOriginalColor": false
   }, {
     "key": "HdRCoCQGqFH",
-    "icon": "assets/icons/tabs/icon-lists.png",
+    "icon": "assets/icons/tabs/icon-columns.png",
     "label": "الاقسام",
     "layout": "category",
     "visible": true,
