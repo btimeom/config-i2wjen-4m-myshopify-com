@@ -722,19 +722,27 @@
     "showOriginalColor": false
   }, {
     "key": "HdRCoCQGqFH",
-    "icon": "assets/icons/tabs/icon-lists.png",
-    "label": "Categories",
+    "icon": "https://cdn.shopify.com/s/files/1/0619/3915/5027/files/category.png",
+    "label": "الفئات",
     "layout": "category",
     "visible": true,
-    "parallax": true,
-    "categories": ["gid://shopify/Collection/286628937811", "gid://shopify/Collection/286629036115", "gid://shopify/Collection/286629068883", "gid://shopify/Collection/286628872275", "gid://shopify/Collection/286629101651", "gid://shopify/Collection/293196398675"],
-    "defaultTab": false,
-    "fullscreen": true,
+    "parallax": false,
+      "categories": ["gid://shopify/Collection/286628937811",
+        "gid://shopify/Collection/286629036115",
+        "gid://shopify/Collection/286629068883",
+        "gid://shopify/Collection/293196398675",
+        "gid://shopify/Collection/286633656403",
+        "gid://shopify/Collection/286628872275",
+        "gid://shopify/Collection/286629101651",
+        "gid://shopify/Collection/293196431443",
+        "gid://shopify/Collection/286631067731"
+      ],
+    "fullscreen": false,
     "showQRCode": true,
     "showSearch": true,
-    "categoryLayout": "card",
+    "categoryLayout": "column",
     "showOriginalColor": false,
-    "parallaxImageRatio": 1.2
+    "parallaxImageRatio": 1.1
   }, {
     "key": "rftKwhraqloVZ",
     "icon": "assets/icons/tabs/icon-cart2.png",
