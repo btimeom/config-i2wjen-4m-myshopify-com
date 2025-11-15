@@ -769,7 +769,7 @@
     "fullscreen": true,
     "showQRCode": true,
     "showSearch": true,
-    "categoryLayout": "card",
+    "categoryLayout": "column",
     "showOriginalColor": false,
     "parallaxImageRatio": 1.2
   }, {
