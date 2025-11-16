@@ -722,13 +722,41 @@
     "ProductListLayout": "list",
     "SmartEngagementBanner": {
       "popup": {
-        "data": {},
         "enable": false,
-        "iconSize": 24,
-        "updatedTime": 1761520004186,
-        "closePosition": "topRight",
+        "data": {},
         "alwaysShowUponOpen": true,
-        "allowTapOutsideToClose": false
+        "closePosition": "topRight",
+        "updatedTime": 1763330086261,
+        "allowTapOutsideToClose": false,
+        "iconSize": 24.0
+      },
+      "flexible": {
+        "enable": true,
+        "data": {
+          "alignment": "topCenter",
+          "marginTop": 0.0,
+          "marginBottom": 0.0,
+          "enableBackground": false,
+          "items": [{
+            "image": "https://assets9.lottiefiles.com/private_files/lf30_a4mKwA.json",
+            "width": 49.0,
+            "height": 83.0,
+            "borderRadius": 2.0,
+            "marginLeft": 0.0,
+            "marginRight": 0.0,
+            "textFontSize": 14.0,
+            "useMaxWidth": true,
+            "navigator": {
+              "key": "XwQMUgQvZF",
+              "coupon": "OM12"
+            }
+          }],
+          "layout": "button"
+        },
+        "canDrag": true,
+        "canClose": true,
+        "width": 100,
+        "height": 100
       },
       "sticky": {
         "data": {},
