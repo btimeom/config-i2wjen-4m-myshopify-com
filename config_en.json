@@ -727,16 +727,16 @@
     "layout": "category",
     "visible": true,
     "parallax": false,
-      "categories": ["gid://shopify/Collection/286628937811",
-        "gid://shopify/Collection/286629036115",
-        "gid://shopify/Collection/286629068883",
-        "gid://shopify/Collection/293196398675",
-        "gid://shopify/Collection/286633656403",
-        "gid://shopify/Collection/286628872275",
-        "gid://shopify/Collection/286629101651",
-        "gid://shopify/Collection/293196431443",
-        "gid://shopify/Collection/286631067731"
-      ],
+    "categories": ["gid://shopify/Collection/286628937811",
+      "gid://shopify/Collection/286629036115",
+      "gid://shopify/Collection/286629068883",
+      "gid://shopify/Collection/293196398675",
+      "gid://shopify/Collection/286633656403",
+      "gid://shopify/Collection/286628872275",
+      "gid://shopify/Collection/286629101651",
+      "gid://shopify/Collection/293196431443",
+      "gid://shopify/Collection/286631067731"
+    ],
     "fullscreen": false,
     "showQRCode": true,
     "showSearch": true,
@@ -764,14 +764,57 @@
     "icon": "assets/icons/tabs/icon-user.png",
     "label": "My Account",
     "layout": "profile",
-    "settings": ["biometrics", "wishlist", "notifications", "language", "darkTheme", "order", "rating", "privacy"],
-    "styleItem": "flatListTile",
-    "background": "https://trello.com/1/cards/6818d78e70e5270c2016d1f2/attachments/681c1d6b6c25844d765b1c07/download/profile.png",
+    "visible": false,
+    "settings": ["biometrics", "wishlist", "notifications", "language", "currencies", "darkTheme", "order", "rating", "privacy", "about"],
+    "background": "https://raw.githubusercontent.com/fluxbuilder/images/main/2025/11/d4eb0d49ec3c/1762630550688.png",
     "defaultTab": false,
-    "fullscreen": true,
-    "showBackground": true,
-    "showOriginalColor": false
-  }],
+    "fullscreen": false,
+    "showOriginalColor": false,
+    "subGeneralSetting": {
+      "about": {
+        "webUrl": "https://btime.om/en/pages/whoarewe"
+      }
+    }
+  }, {
+    "key": "iZKBNjksIL",
+    "data": {
+      "id": 1,
+      "container": {
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0619/3915/5027/files/bt9.jpg",
+          "align": {
+            "x": 1,
+            "y": 1
+          },
+          "width": 1,
+          "height": 0.5
+        },
+"header": {
+  "text": "Discount Coupon",
+  "align": {
+    "x": -1,
+    "y": 0.8
+  },
+  "color": "#FFFFFF",
+  "padding": {
+    "vertical": 10,
+    "horizontal": 20
+  },
+  "background": "#000000"
+},
+"height": 0.5
+},
+"subHeader": "Congratulations! You got a big discount coupon 🎉\r\n",
+"description": "Your discount code: BT9\n\nYou can use this code in the coupon field when completing your purchase on the cart page.\n\nTerms of use: The coupon works on purchases exceeding 9 OMR."
+},
+"icon": "assets/images/no_coupon.png",
+"label": "Discount Coupon",
+"layout": "static",
+"visible": false,
+"defaultTab": false,
+"fullscreen": false,
+"showOriginalColor": false
+}],
   "AppBar": {
     "showOnScreens": ["home"],
     "enable": true,
@@ -814,55 +857,83 @@
     "expandedItems": []
   },
   "Drawer": {
-  "logo": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/68180aac2d74983d6722d0c8/download/2_modified.svg",
-  "items": [
-    { "show": true,  "type": "home" },
-    { "show": true,  "type": "screen-brandsWeb" },
-    { "show": false, "type": "blog" },
-    { "show": false, "type": "categories" },
-    { "show": true,  "type": "cart" },
-    { "show": false, "type": "profile" },
-    { "show": true,  "type": "login" },
-    { "show": true,  "type": "web-qMVLBlTNUP" },
-    { "show": false, "type": "screen-bcltYTyBqf" },
-    { "show": true,  "type": "category" }
-  ],
-  "enable": true,
-  "filter": 0.3,
-  "logoDark": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/68180aac2d74983d6722d0c8/download/2_modified.svg",
-  "safeArea": false,
-  "iconColor": "FFFEDAC4",
-  "textColor": "FFFEDAC4",
-  "logoConfig": {
-    "width": 50,
-    "height": 70,
-    "marginLeft": 27,
-    "marginRight": 47,
-    "marginTop": 27,
-    "marginBottom": 0,
-    "boxFit": "fitWidth",
-    "useMaxWidth": true
-  },
-  "zoomConfig": {
-    "angle": 0,
-    "style": "scaleRight",
-    "slideWidth": 0.55,
-    "slideMargin": 0,
-    "borderRadius": 67.5,
-    "enableShadow": false,
-    "backgroundImage": null,
-    "mainScreenScale": 0.1
-  },
-  "colorFilter": "FFB24CB6",
-  "subDrawerItem": {
-    "web-qMVLBlTNUP": {
-      "id": "web-12",
-      "icon": "bubble_right_fill",
-      "iconFontFamily": "CupertinoIcons",
-      "title": "Whatsapp",
-      "webUrl": "https://wa.me/96877255566",
-      "buttons": [
-        {
+    "logo": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/68180aac2d74983d6722d0c8/download/2_modified.svg",
+    "items": [{
+        "show": true,
+        "type": "home"
+      },
+      {
+        "show": true,
+        "type": "screen-brandsWeb"
+      },
+      {
+        "show": false,
+        "type": "blog"
+      },
+      {
+        "show": false,
+        "type": "categories"
+      },
+      {
+        "show": true,
+        "type": "cart"
+      },
+      {
+        "show": false,
+        "type": "profile"
+      },
+      {
+        "show": true,
+        "type": "login"
+      },
+      {
+        "show": true,
+        "type": "web-qMVLBlTNUP"
+      },
+      {
+        "show": false,
+        "type": "screen-bcltYTyBqf"
+      },
+      {
+        "show": true,
+        "type": "category"
+      }
+    ],
+    "enable": true,
+    "filter": 0.3,
+    "logoDark": "https://trello.com/1/cards/680a257aba7935ed1357613b/attachments/68180aac2d74983d6722d0c8/download/2_modified.svg",
+    "safeArea": false,
+    "iconColor": "FFFEDAC4",
+    "textColor": "FFFEDAC4",
+    "logoConfig": {
+      "width": 50,
+      "height": 70,
+      "marginLeft": 27,
+      "marginRight": 47,
+      "marginTop": 27,
+      "marginBottom": 0,
+      "boxFit": "fitWidth",
+      "useMaxWidth": true
+    },
+    "zoomConfig": {
+      "angle": 0,
+      "style": "scaleRight",
+      "slideWidth": 0.55,
+      "slideMargin": 0,
+      "borderRadius": 67.5,
+      "enableShadow": false,
+      "backgroundImage": null,
+      "mainScreenScale": 0.1
+    },
+    "colorFilter": "FFB24CB6",
+    "subDrawerItem": {
+      "web-qMVLBlTNUP": {
+        "id": "web-12",
+        "icon": "bubble_right_fill",
+        "iconFontFamily": "CupertinoIcons",
+        "title": "Whatsapp",
+        "webUrl": "https://wa.me/96877255566",
+        "buttons": [{
           "width": 40,
           "height": 40,
           "radius": 0,
@@ -870,45 +941,45 @@
           "marginLeft": 5,
           "marginRight": 5,
           "textFontSize": 14
-        }
-      ],
-      "enableClose": false,
-      "webViewMode": true,
-      "bannerHeight": 15,
-      "useTabScreen": false,
-      "enableDivider": false,
-      "enableForward": false,
-      "requiredLogin": false,
-      "enableBackward": true,
-      "buttonAlignment": "centerLeft"
+        }],
+        "enableClose": false,
+        "webViewMode": true,
+        "bannerHeight": 15,
+        "useTabScreen": false,
+        "enableDivider": false,
+        "enableForward": false,
+        "requiredLogin": false,
+        "enableBackward": true,
+        "buttonAlignment": "centerLeft"
+      },
+      "screen-brandsWeb": {
+        "id": "screen-brandsWeb",
+        "icon": "tag",
+        "iconFontFamily": "CupertinoIcons",
+        "title": "Brands",
+        "screen": "brands-web",
+        "useTabScreen": false
+      },
+      "screen-bcltYTyBqf": {
+        "id": "web-12",
+        "icon": "gear_solid",
+        "title": "Settings",
+        "screen": "profile",
+        "buttons": [],
+        "enableClose": false,
+        "webViewMode": false,
+        "bannerHeight": 15,
+        "useTabScreen": true,
+        "enableDivider": false,
+        "enableForward": false,
+        "requiredLogin": false,
+        "enableBackward": true
+      }
     },
-    "screen-brandsWeb": {
-      "id": "screen-brandsWeb",
-      "icon": "tag",
-      "iconFontFamily": "CupertinoIcons",
-      "title": "Brands",
-      "screen": "brands-web",
-      "useTabScreen": false
-    },
-    "screen-bcltYTyBqf": {
-      "id": "web-12",
-      "icon": "gear_solid",
-      "title": "Settings",
-      "screen": "profile",
-      "buttons": [],
-      "enableClose": false,
-      "webViewMode": false,
-      "bannerHeight": 15,
-      "useTabScreen": true,
-      "enableDivider": false,
-      "enableForward": false,
-      "requiredLogin": false,
-      "enableBackward": true
-    }
+    "backgroundColor": "FF7C2C86",
+    "backgroundImage": null
   },
-  "backgroundColor": "FF7C2C86",
-  "backgroundImage": null
-},  "overrideTranslation": {
+  "overrideTranslation": {
     "@@locale": "en"
   },
   "Datetime": "04:06:44 - Mon 27 Oct"
