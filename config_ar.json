@@ -191,6 +191,21 @@
     "categoryMenuShowDepth": false,
     "productCategoryMenuStyle": "menu",
     "allowFilterMultipleCategory": false
+  }, {
+    "layout": "bannerImage",
+    "design": "default",
+    "fit": "fitWidth",
+    "marginLeft": 0.0,
+    "items": [{
+      "image": "https://cdn.shopify.com/s/files/1/0619/3915/5027/files/showar.jpg",
+      "showSubcategory": false,
+      "bannerWithProduct": false,
+      "defaultShowProduct": false,
+      "video": "",
+      "products": [],
+      "productLength": 3,
+      "type": "image",
+      "key": "GLAOtYnokJ"
     }, {
       "key": "ZdtEXpvCDY",
       "name": "Korean products time",
